@@ -1,0 +1,627 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>9 对象扩展 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="11 Map.html" />
+    
+    
+    <link rel="prev" href="8 数组.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="3 解构赋值.html">
+            
+                <a href="3 解构赋值.html">
+            
+                    
+                    3 解构赋值
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="6 数值.html">
+            
+                <a href="6 数值.html">
+            
+                    
+                    6 数值
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="7 函数扩展.html">
+            
+                <a href="7 函数扩展.html">
+            
+                    
+                    7 函数扩展
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="8 数组.html">
+            
+                <a href="8 数组.html">
+            
+                    
+                    8 数组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.6" data-path="9 对象扩展.html">
+            
+                <a href="9 对象扩展.html">
+            
+                    
+                    9 对象扩展
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="11 Map.html">
+            
+                <a href="11 Map.html">
+            
+                    
+                    11 Map
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="11 Set.html">
+            
+                <a href="11 Set.html">
+            
+                    
+                    11 Set
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="12 Proxy.html">
+            
+                <a href="12 Proxy.html">
+            
+                    
+                    12 Proxy
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="13 Reflect.html">
+            
+                <a href="13 Reflect.html">
+            
+                    
+                    13 Reflect
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="14 Promise.html">
+            
+                <a href="14 Promise.html">
+            
+                    
+                    14 Promise
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="15 Iterator.html">
+            
+                <a href="15 Iterator.html">
+            
+                    
+                    15 Iterator
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="16 Generator.html">
+            
+                <a href="16 Generator.html">
+            
+                    
+                    16 Generator
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="18 async.html">
+            
+                <a href="18 async.html">
+            
+                    
+                    18 async
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="19 class.html">
+            
+                <a href="19 class.html">
+            
+                    
+                    19 class
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="21 Decorator.html">
+            
+                <a href="21 Decorator.html">
+            
+                    
+                    21 Decorator
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="22 Generator异步应用.html">
+            
+                <a href="22 Generator异步应用.html">
+            
+                    
+                    22 Generator异步应用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18" data-path="22 Module语法.html">
+            
+                <a href="22 Module语法.html">
+            
+                    
+                    22 Module语法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.19" data-path="24 编程风格.html">
+            
+                <a href="24 编程风格.html">
+            
+                    
+                    24 编程风格
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >9 对象扩展</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <p>/**</p>
+<ul>
+<li>&#x5C5E;&#x6027;&#x7684;&#x7B80;&#x6D01;&#x8868;&#x793A;&#x6CD5;
+*/
+//&#x5141;&#x8BB8;&#x76F4;&#x63A5;&#x5199;&#x5165;&#x53D8;&#x91CF;&#x548C;&#x51FD;&#x6570;&#xFF0C;&#x4F5C;&#x4E3A;&#x5BF9;&#x8C61;&#x7684;&#x5C5E;&#x6027;&#x548C;&#x65B9;&#x6CD5;&#x3002;&#x8FD9;&#x6837;&#x7684;&#x4E66;&#x5199;&#x66F4;&#x52A0;&#x7B80;&#x6D01;&#x3002;
+var baz = {foo: &quot;foo&quot;};</li>
+</ul>
+<p>var o = {
+  method: function() {
+    return &quot;Hello!&quot;;
+  }
+};</p>
+<p>/**</p>
+<ul>
+<li>&#x5C5E;&#x6027;&#x540D;&#x8868;&#x8FBE;&#x5F0F;</li>
+<li>&#x5C5E;&#x6027;&#x540D;&#x8868;&#x8FBE;&#x5F0F;&#x4E0E;&#x7B80;&#x6D01;&#x8868;&#x793A;&#x6CD5;&#xFF0C;&#x4E0D;&#x80FD;&#x540C;&#x65F6;&#x4F7F;&#x7528;
+*/</li>
+</ul>
+<p>//&#x76F4;&#x63A5;&#x7528;&#x6807;&#x8BC6;&#x7B26;&#x4F5C;&#x4E3A;&#x5C5E;&#x6027;&#x540D;
+obj.foo = true;</p>
+<p>// &#x7528;&#x8868;&#x8FBE;&#x5F0F;&#x4F5C;&#x4E3A;&#x5C5E;&#x6027;&#x540D;
+obj<a href="123">&apos;a&apos; + &apos;bc&apos;</a> = 123;</p>
+<p>//&#x4F7F;&#x7528;&#x5B57;&#x9762;&#x91CF;&#x65B9;&#x5F0F;&#x5B9A;&#x4E49;&#x5BF9;&#x8C61;&#x4F7F;&#x7528;&#x5927;&#x62EC;&#x53F7;&#xFF09;,&#xFF08;&#x6807;&#x8BC6;&#x7B26;&#xFF09;&#x5B9A;&#x4E49;&#x5C5E;&#x6027;&#x3002;
+var obj = {
+  foo: true,
+  abc: 123
+};</p>
+<p>// &#xFF08;&#x8868;&#x8FBE;&#x5F0F;&#xFF09;&#x4F5C;&#x4E3A;&#x5BF9;&#x8C61;&#x7684;&#x5C5E;&#x6027;&#x540D;&#xFF0C;&#x5373;&#x628A;&#x8868;&#x8FBE;&#x5F0F;&#x653E;&#x5728;&#x65B9;&#x62EC;&#x53F7;&#x5185;&#x3002;
+let propKey = &apos;foo&apos;;
+let obj = {</p>
+<p>};</p>
+<p>var lastWord = &apos;last word&apos;;
+var a = {
+  &apos;first word&apos;: &apos;hello&apos;,</p>
+<p>};</p>
+<p>a[&apos;first word&apos;] // &quot;hello&quot;
+a<a href="%27world%27">lastWord</a> // &quot;world&quot;
+a[&apos;last word&apos;] // &quot;world&quot;</p>
+<p>// &#x5B9A;&#x4E49;&#x65B9;&#x6CD5;&#x540D;
+let obj = {
+  <a href="">&apos;h&apos; + &apos;ello&apos;</a> {
+    return &apos;hi&apos;;
+  }
+};</p>
+<p>obj.hello() // hi</p>
+<p>/**</p>
+<ul>
+<li>&#x65B9;&#x6CD5;&#x7684;name&#x5C5E;&#x6027;</li>
+<li>&#x51FD;&#x6570;&#x7684;name&#x5C5E;&#x6027;&#xFF0C;&#x8FD4;&#x56DE;&#x51FD;&#x6570;&#x540D;&#x3002;&#x5BF9;&#x8C61;&#x65B9;&#x6CD5;&#x4E5F;&#x662F;&#x51FD;&#x6570;&#xFF0C;&#x56E0;&#x6B64;&#x4E5F;&#x6709;name&#x5C5E;&#x6027;&#x3002;
+*/
+const person = {
+sayName() {
+ console.log(&apos;hello!&apos;);
+},
+};</li>
+</ul>
+<p>person.sayName.name   // &quot;sayName&quot;</p>
+<p>//&#x5982;&#x679C;&#x5BF9;&#x8C61;&#x7684;&#x65B9;&#x6CD5;&#x4F7F;&#x7528;&#x4E86;&#x53D6;&#x503C;&#x51FD;&#x6570;&#xFF08;getter&#xFF09;&#x548C;&#x5B58;&#x503C;&#x51FD;&#x6570;&#xFF08;setter&#xFF09;&#xFF0C;
+//&#x5219;name&#x5C5E;&#x6027;&#x4E0D;&#x662F;&#x5728;&#x8BE5;&#x65B9;&#x6CD5;&#x4E0A;&#x9762;&#xFF0C;&#x800C;&#x662F;&#x8BE5;&#x65B9;&#x6CD5;&#x7684;&#x5C5E;&#x6027;&#x7684;&#x63CF;&#x8FF0;&#x5BF9;&#x8C61;&#x7684;get&#x548C;set&#x5C5E;&#x6027;&#x4E0A;&#x9762;&#xFF0C;&#x8FD4;&#x56DE;&#x503C;&#x662F;&#x65B9;&#x6CD5;&#x540D;&#x524D;&#x52A0;&#x4E0A;get&#x548C;set&#x3002;
+const obj = {
+  get foo() {},
+  set foo(x) {}
+};</p>
+<p>obj.foo.name
+// TypeError: Cannot read property &apos;name&apos; of undefined</p>
+<p>const descriptor = Object.getOwnPropertyDescriptor(obj, &apos;foo&apos;);</p>
+<p>descriptor.get.name // &quot;get foo&quot;
+descriptor.set.name // &quot;set foo&quot;</p>
+<p>/**</p>
+<ul>
+<li>Object.is&#x7528;&#x6765;&#x6BD4;&#x8F83;&#x4E24;&#x4E2A;&#x503C;&#x662F;&#x5426;&#x4E25;&#x683C;&#x76F8;&#x7B49;
+*/
++0 === -0 //true
+NaN === NaN // false</li>
+</ul>
+<p>Object.is(+0, -0) // false
+Object.is(NaN, NaN) // true</p>
+<p>/**</p>
+<ul>
+<li>Object.assign&#x65B9;&#x6CD5;&#x7528;&#x4E8E;&#x5BF9;&#x8C61;&#x7684;&#x5408;&#x5E76;&#xFF0C;&#x5C06;&#x6E90;&#x5BF9;&#x8C61;&#xFF08;source&#xFF09;&#x7684;&#x6240;&#x6709;&#x53EF;&#x679A;&#x4E3E;&#x5C5E;&#x6027;&#xFF0C;&#x590D;&#x5236;&#x5230;&#x76EE;&#x6807;&#x5BF9;&#x8C61;&#xFF08;target&#xFF09;&#x3002;</li>
+<li>&#x5982;&#x679C;&#x76EE;&#x6807;&#x5BF9;&#x8C61;&#x4E0E;&#x6E90;&#x5BF9;&#x8C61;&#x6709;&#x540C;&#x540D;&#x5C5E;&#x6027;&#xFF0C;&#x6216;&#x591A;&#x4E2A;&#x6E90;&#x5BF9;&#x8C61;&#x6709;&#x540C;&#x540D;&#x5C5E;&#x6027;&#xFF0C;&#x5219;&#x540E;&#x9762;&#x7684;&#x5C5E;&#x6027;&#x4F1A;&#x8986;&#x76D6;&#x524D;&#x9762;&#x7684;&#x5C5E;&#x6027;&#x3002;
+*/</li>
+</ul>
+<p>var target = { a: 1 };</p>
+<p>var source1 = { b: 2 };
+var source2 = { c: 3 };</p>
+<p>Object.assign(target, source1, source2);
+target // {a:1, b:2, c:3}</p>
+<p>//&#x5982;&#x679C;&#x8BE5;&#x53C2;&#x6570;&#x4E0D;&#x662F;&#x5BF9;&#x8C61;&#xFF0C;&#x5219;&#x4F1A;&#x5148;&#x8F6C;&#x6210;&#x5BF9;&#x8C61;&#xFF0C;&#x7136;&#x540E;&#x8FD4;&#x56DE;&#x3002;
+//undefined&#x548C;null&#x65E0;&#x6CD5;&#x8F6C;&#x6210;&#x5BF9;&#x8C61;&#xFF0C;&#x6240;&#x4EE5;&#x5982;&#x679C;&#x5B83;&#x4EEC;&#x4F5C;&#x4E3A;&#x9996;&#x4E2A;&#x53C2;&#x6570;&#xFF0C;&#x5C31;&#x4F1A;&#x62A5;&#x9519;&#x3002;
+//&#x5982;&#x679C;undefined&#x548C;null&#x4E0D;&#x5728;&#x9996;&#x53C2;&#x6570;&#xFF0C;&#x5C31;&#x4E0D;&#x4F1A;&#x62A5;&#x9519;&#x3002;
+//&#x5176;&#x4ED6;&#x7C7B;&#x578B;&#x7684;&#x503C;&#xFF08;&#x5373;&#x6570;&#x503C;&#x3001;&#x5B57;&#x7B26;&#x4E32;&#x548C;&#x5E03;&#x5C14;&#x503C;&#xFF09;&#x4E0D;&#x5728;&#x9996;&#x53C2;&#x6570;&#xFF0C;&#x4E5F;&#x4E0D;&#x4F1A;&#x62A5;&#x9519;&#x3002;
+//&#x4F46;&#x662F;&#xFF0C;&#x9664;&#x4E86;&#x5B57;&#x7B26;&#x4E32;&#x4F1A;&#x4EE5;&#x6570;&#x7EC4;&#x5F62;&#x5F0F;&#xFF0C;&#x62F7;&#x8D1D;&#x5165;&#x76EE;&#x6807;&#x5BF9;&#x8C61;&#xFF0C;&#x5176;&#x4ED6;&#x503C;&#x90FD;&#x4E0D;&#x4F1A;&#x4EA7;&#x751F;&#x6548;&#x679C;&#x3002;</p>
+<p>//&#x53EA;&#x6709;&#x5B57;&#x7B26;&#x4E32;&#x7684;&#x5305;&#x88C5;&#x5BF9;&#x8C61;&#xFF0C;&#x4F1A;&#x4EA7;&#x751F;&#x53EF;&#x679A;&#x4E3E;&#x5C5E;&#x6027;&#x3002;
+var v1 = &apos;abc&apos;;
+var v2 = true;
+var v3 = 10;</p>
+<p>var obj = Object.assign({}, v1, v2, v3);
+console.log(obj); // { &quot;0&quot;: &quot;a&quot;, &quot;1&quot;: &quot;b&quot;, &quot;2&quot;: &quot;c&quot; }</p>
+<p> //Object.assign&#x65B9;&#x6CD5;&#x5B9E;&#x884C;&#x7684;&#x662F;&#x6D45;&#x62F7;&#x8D1D;&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x6DF1;&#x62F7;&#x8D1D;&#x3002;
+ //&#x4E5F;&#x5C31;&#x662F;&#x8BF4;&#xFF0C;&#x5982;&#x679C;&#x6E90;&#x5BF9;&#x8C61;&#x67D0;&#x4E2A;&#x5C5E;&#x6027;&#x7684;&#x503C;&#x662F;&#x5BF9;&#x8C61;&#xFF0C;&#x90A3;&#x4E48;&#x76EE;&#x6807;&#x5BF9;&#x8C61;&#x62F7;&#x8D1D;&#x5F97;&#x5230;&#x7684;&#x662F;&#x8FD9;&#x4E2A;&#x5BF9;&#x8C61;&#x7684;&#x5F15;&#x7528;&#x3002;
+var obj1 = {a: {b: 1}};
+var obj2 = Object.assign({}, obj1);</p>
+<p>obj1.a.b = 2;
+obj2.a.b // 2</p>
+<p>//Object.assign&#x628A;&#x6570;&#x7EC4;&#x89C6;&#x4E3A;&#x5C5E;&#x6027;&#x540D;&#x4E3A;0&#x3001;1&#x3001;2&#x7684;&#x5BF9;&#x8C61;&#xFF0C;
+//&#x56E0;&#x6B64;&#x6E90;&#x6570;&#x7EC4;&#x7684;0&#x53F7;&#x5C5E;&#x6027;4&#x8986;&#x76D6;&#x4E86;&#x76EE;&#x6807;&#x6570;&#x7EC4;&#x7684;0&#x53F7;&#x5C5E;&#x6027;1&#x3002;
+Object.assign([1, 2, 3], [4, 5]);// [4, 5, 3]</p>
+<p>//&#x9047;&#x5230;&#x540C;&#x540D;&#x5C5E;&#x6027;&#xFF0C;Object.assign&#x7684;&#x5904;&#x7406;&#x65B9;&#x6CD5;&#x662F;&#x66FF;&#x6362;&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x6DFB;&#x52A0;&#x3002;
+//target&#x5BF9;&#x8C61;&#x7684;a&#x5C5E;&#x6027;&#x88AB;source&#x5BF9;&#x8C61;&#x7684;a&#x5C5E;&#x6027;&#x6574;&#x4E2A;&#x66FF;&#x6362;&#x6389;&#x4E86;&#xFF0C;&#x800C;&#x4E0D;&#x4F1A;&#x5F97;&#x5230;{ a: { b: &apos;hello&apos;, d: &apos;e&apos; } }&#x7684;&#x7ED3;&#x679C;&#x3002;
+var target = { a: { b: &apos;c&apos;, d: &apos;e&apos; } }
+var source = { a: { b: &apos;hello&apos; } }
+Object.assign(target, source)
+// { a: { b: &apos;hello&apos; } }</p>
+<p>//&#x4E3A;&#x5BF9;&#x8C61;&#x6DFB;&#x52A0;&#x5C5E;&#x6027;
+//&#x901A;&#x8FC7;Object.assign&#x65B9;&#x6CD5;&#xFF0C;&#x5C06;x&#x5C5E;&#x6027;&#x548C;y&#x5C5E;&#x6027;&#x6DFB;&#x52A0;&#x5230;Point&#x7C7B;&#x7684;&#x5BF9;&#x8C61;&#x5B9E;&#x4F8B;&#x3002;
+class Point {
+  constructor(x, y) {
+    Object.assign(this, {x, y});
+  }
+}</p>
+<p>//&#x4E3A;&#x5BF9;&#x8C61;&#x6DFB;&#x52A0;&#x65B9;&#x6CD5;
+//&#x76F4;&#x63A5;&#x5C06;&#x4E24;&#x4E2A;&#x51FD;&#x6570;&#x653E;&#x5728;&#x5927;&#x62EC;&#x53F7;&#x4E2D;&#xFF0C;&#x518D;&#x4F7F;&#x7528;assign&#x65B9;&#x6CD5;&#x6DFB;&#x52A0;&#x5230;SomeClass.prototype&#x4E4B;&#x4E2D;&#x3002;
+Object.assign(SomeClass.prototype, {
+  someMethod(arg1, arg2) {
+    &#xB7;&#xB7;&#xB7;
+  },
+  anotherMethod() {
+    &#xB7;&#xB7;&#xB7;
+  }
+});</p>
+<p>// &#x7B49;&#x540C;&#x4E8E;&#x4E0B;&#x9762;&#x7684;&#x5199;&#x6CD5;
+SomeClass.prototype.someMethod = function (arg1, arg2) {
+  &#xB7;&#xB7;&#xB7;
+};
+SomeClass.prototype.anotherMethod = function () {
+  &#xB7;&#xB7;&#xB7;
+};</p>
+<p>// &#x514B;&#x9686;&#x5BF9;&#x8C61;
+// &#x539F;&#x59CB;&#x5BF9;&#x8C61;&#x62F7;&#x8D1D;&#x5230;&#x4E00;&#x4E2A;&#x7A7A;&#x5BF9;&#x8C61;&#xFF0C;&#x5C31;&#x5F97;&#x5230;&#x4E86;&#x539F;&#x59CB;&#x5BF9;&#x8C61;&#x7684;&#x514B;&#x9686;&#xFF0C;&#x53EA;&#x80FD;&#x514B;&#x9686;&#x539F;&#x59CB;&#x5BF9;&#x8C61;&#x81EA;&#x8EAB;&#x7684;&#x503C;&#xFF0C;&#x4E0D;&#x80FD;&#x514B;&#x9686;&#x5B83;&#x7EE7;&#x627F;&#x7684;&#x503C;&#x3002;
+function clone(origin) {
+  return Object.assign({}, origin);
+}</p>
+<p>// &#x60F3;&#x8981;&#x4FDD;&#x6301;&#x7EE7;&#x627F;&#x94FE;
+function clone(origin) {
+  let originProto = Object.getPrototypeOf(origin);
+  return Object.assign(Object.create(originProto), origin);
+}</p>
+<p>//&#x5C06;&#x591A;&#x4E2A;&#x5BF9;&#x8C61;&#x5408;&#x5E76;&#x5230;&#x67D0;&#x4E2A;&#x5BF9;&#x8C61;&#x3002;
+const merge =(target, ...sources) =&gt; Object.assign(target, ...sources);</p>
+<p>//&#x5982;&#x679C;&#x5E0C;&#x671B;&#x5408;&#x5E76;&#x540E;&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;&#x65B0;&#x5BF9;&#x8C61;&#xFF0C;&#x5BF9;&#x4E00;&#x4E2A;&#x7A7A;&#x5BF9;&#x8C61;&#x5408;&#x5E76;&#x3002;
+const merge = (...sources) =&gt; Object.assign({}, ...sources);</p>
+<p>/**</p>
+<ul>
+<li>&#x5C5E;&#x6027;&#x7684;&#x53EF;&#x679A;&#x4E3E;&#x6027;&#x548C;&#x904D;&#x5386;
+*/</li>
+</ul>
+<p>//&#x53EF;&#x679A;&#x4E3E;:&#x5BF9;&#x8C61;&#x7684;&#x6BCF;&#x4E2A;&#x5C5E;&#x6027;&#x90FD;&#x6709;&#x4E00;&#x4E2A;&#x63CF;&#x8FF0;&#x5BF9;&#x8C61;&#xFF08;Descriptor&#xFF09;&#xFF0C;&#x7528;&#x6765;&#x63A7;&#x5236;&#x8BE5;&#x5C5E;&#x6027;&#x7684;&#x884C;&#x4E3A;&#x3002;</p>
+<p>//&#x5C5E;&#x6027;&#x7684;&#x904D;&#x5386;
+//</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="8 数组.html" class="navigation navigation-prev " aria-label="Previous page: 8 数组">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="11 Map.html" class="navigation navigation-next " aria-label="Next page: 11 Map">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"9 对象扩展","level":"1.6","depth":1,"next":{"title":"11 Map","level":"1.7","depth":1,"path":"11 Map.md","ref":"11 Map.md","articles":[]},"previous":{"title":"8 数组","level":"1.5","depth":1,"path":"8 数组.md","ref":"8 数组.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"9 对象扩展.md","mtime":"2017-09-22T03:01:51.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-10-11T10:15:57.420Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

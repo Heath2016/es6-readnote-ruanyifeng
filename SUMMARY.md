@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* 
 * [3 解构赋值](3 解构赋值.md)
 * [6 数值](6 数值.md)
 * [7 函数扩展](7 函数扩展.md)
@@ -20,8 +19,4 @@
 * [22 Generator异步应用](22 Generator异步应用.md)
 * [22 Module语法](22 Module语法.md)
 * [24 编程风格](24 编程风格.md)
-
-
-
-
 
