@@ -1,6 +1,6 @@
 {
     "author": "Heath <jiankang_zhu@126.com>",
-    "description": "This is a sample book created by gitbook",
+    "description": "",
     "extension": null,
     "generator": "site",
     "isbn": null,
@@ -13,7 +13,6 @@
             "weibo": null
         },
         "sidebar": {
-            "Chengwei's Blog": ""
         }
     },
     "output": null,
