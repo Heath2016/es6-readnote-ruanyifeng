@@ -1,3 +1,4 @@
+```
 /**
  * export命令用于规定模块的对外接口，
  * import命令用于输入其他模块提供的功能。
@@ -286,7 +287,7 @@ console.log(x === window.x); //false
 console.log(this === undefined); // true
 
 delete x; // 句法错误，严格模式禁止删除变量
-
+```
 
 
 
